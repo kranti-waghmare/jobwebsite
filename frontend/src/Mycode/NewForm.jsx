@@ -161,6 +161,24 @@ const NewForm = () => {
               </p>}
           </div>
 
+             <div className=" flex flex-col">
+            <label htmlFor="name">Phone :</label>
+            <input
+              type="text"
+              name="phone"
+              maxLength={10}
+              placeholder="Enter here phone"
+              value={form.phone}
+              onChange={handleChange}
+              className="border p-3 w-1/2"
+            />
+             {error.phone &&
+              <p className="text-red-500">
+              {error.phone}
+              </p>}
+          </div>
+
+
 
           <div className="py-2 flex justify-center">
             <button

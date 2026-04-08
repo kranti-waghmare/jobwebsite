@@ -92,6 +92,7 @@ const TableForm = () => {
             <th>Role</th>
             <th>Phone</th>
             <th>Action</th>
+            <th>Action</th>
           </tr>
         </thead>
         <tbody className="">
